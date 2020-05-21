@@ -967,6 +967,15 @@ const contributors = {
     twitter: 'domenic',
     github: 'domenic',
   },
+  kevinellis: {
+    name: {
+      given: 'Kevin',
+      family: 'Ellis',
+    },
+    description: {
+      en: 'Software Engineer on the web platform.',
+    }
+  },
 };
 
 const processedContributors = {};
