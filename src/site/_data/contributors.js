@@ -974,7 +974,7 @@ const contributors = {
     },
     description: {
       en: 'Software Engineer on the web platform.',
-    }
+    },
   },
 };
 
