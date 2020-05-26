@@ -37,6 +37,7 @@ const Compare = require(`./${componentsDir}/Compare`);
 const CompareCaption = require(`./${componentsDir}/CompareCaption`);
 const Details = require(`./${componentsDir}/Details`);
 const DetailsSummary = require(`./${componentsDir}/DetailsSummary`);
+const EventTable = require(`./${componentsDir}/EventTable`);
 const Hero = require(`./${componentsDir}/Hero`);
 const Instruction = require(`./${componentsDir}/Instruction`);
 const Label = require(`./${componentsDir}/Label`);
@@ -49,6 +50,7 @@ const YouTube = require(`./${componentsDir}/YouTube`);
 
 const collectionsDir = 'src/site/_collections';
 const authors = require(`./${collectionsDir}/authors`);
+const authorsWithPosts = require(`./${collectionsDir}/authors-with-posts`);
 const paginatedAuthors = require(`./${collectionsDir}/paginated-authors`);
 const paginatedBlogPosts = require(`./${collectionsDir}/paginated-blog-posts`);
 const paginatedNewsletters = require(`./${collectionsDir}/paginated-newsletters`);
@@ -150,6 +152,7 @@ module.exports = function(config) {
   // ----------------------------------------------------------------------------
   // COLLECTIONS
   // ----------------------------------------------------------------------------
+  config.addCollection('authorsWithPosts', authorsWithPosts);
   config.addCollection('authors', authors);
   config.addCollection('blogPosts', blogPostsDescending);
   config.addCollection('postsWithLighthouse', postsWithLighthouse);
@@ -222,6 +225,10 @@ module.exports = function(config) {
   config.addShortcode('SignPosts', SignPosts);
   config.addShortcode('Tooltip', Tooltip);
   config.addShortcode('YouTube', YouTube);
+
+  // This table is used for the web.dev/LIVE event, and should be taken down
+  // when the event is over or we no longer use it.
+  config.addShortcode('EventTable', EventTable);
 
   // ----------------------------------------------------------------------------
   // TRANSFORMS
