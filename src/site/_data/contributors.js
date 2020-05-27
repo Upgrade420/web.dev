@@ -122,6 +122,20 @@ const contributors = {
       en: 'Arthur is a Tech Writer',
     },
   },
+  sfourault: {
+    name: {
+      given: 'Sébastien',
+      family: 'Fourault',
+    },
+    org: {
+      name: 'Google',
+      unit: 'Mobile Solutions Consultant',
+    },
+    twitter: 'SebFourault',
+    github: 'krustydaclown',
+    homepage: 'https://medium.com/@sebFourault',
+    country: 'FR',
+  },
   tomgreenaway: {
     name: {
       given: 'Tom',
@@ -1054,7 +1068,7 @@ const contributors = {
       given: 'Shu-yu',
       family: 'Guo',
     },
-    twiter: '_shu',
+    twitter: '_shu',
     country: 'US',
     org: {
       name: 'Google',
@@ -1065,7 +1079,7 @@ const contributors = {
       given: 'Thomas',
       family: 'Nattestad',
     },
-    twiter: 'fractorious',
+    twitter: 'fractorious',
     country: 'US',
     org: {
       name: 'Google',
@@ -1088,6 +1102,17 @@ const contributors = {
       family: 'Morss',
     },
     twitter: 'benmorss',
+    country: 'US',
+    org: {
+      name: 'Google',
+    },
+  },
+  ericbidelman: {
+    name: {
+      given: 'Eric',
+      family: 'Bidelman',
+    },
+    twitter: 'ebidel',
     country: 'US',
     org: {
       name: 'Google',
@@ -1171,6 +1196,7 @@ const contributors = {
     },
     country: 'FI',
     github: 'drott',
+    twitter: 'abrax5',
     org: {
       name: 'Google',
     },
@@ -1182,6 +1208,18 @@ const contributors = {
     },
     description: {
       en: 'Software Engineer on the web platform.',
+    },
+  },
+  yaraki: {
+    name: {
+      given: 'Yuichi',
+      family: 'Araki',
+    },
+    twitter: 'yuichi_araki',
+    github: 'yaraki',
+    country: 'JP',
+    description: {
+      en: 'Developer Programs Engineer at Google',
     },
   },
 };
